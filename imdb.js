@@ -1,4 +1,4 @@
-{const movieSearchBox = document.getElementById('movie-search-box');
+const movieSearchBox = document.getElementById('movie-search-box');
 const searchList = document.getElementById('search-list');
 const resultGrid = document.getElementById('result-grid');
 
@@ -101,4 +101,3 @@ movieSearchBox.addEventListener('click', findMovies);
 }
 
 initializefunc();
-}
